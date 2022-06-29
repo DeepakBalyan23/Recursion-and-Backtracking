@@ -7,9 +7,7 @@ public class WaysInMatrix {
 		} else if(m==1 || n==1) {
 			return 1;
 		}
-//		if(m==3&&n==2) {
-//			return 0;
-//		}
+		
 		return countWays(arr, m-1, n)+ countWays(arr, m, n-1);
 	}
 }
