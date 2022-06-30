@@ -14,8 +14,11 @@ public class Main {
 //		Palindrome p = new Palindrome();
 //		System.out.println(p.isPalindrome("malayalam", 0));
 		
-		PoewersetString s = new PoewersetString();
-		s.printPowerset("abc", 0,"");
+//		PoewersetString s = new PoewersetString();
+//		s.printPowerset("abc", 0,"");
+		
+		Permutation pr = new Permutation();
+		pr.printPermutation("abc", 0, 2);
 	}
 
 }
