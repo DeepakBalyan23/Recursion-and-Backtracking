@@ -17,8 +17,19 @@ public class Main {
 //		PoewersetString s = new PoewersetString();
 //		s.printPowerset("abc", 0,"");
 		
-		Permutation pr = new Permutation();
-		pr.printPermutation("abc", 0, 2);
+//		Permutation pr = new Permutation();
+//		pr.printPermutation("abc", 0, 2);
+		
+		NQueen nq = new NQueen();
+		int n=5;
+		int [][] a = new int[n][n];
+		System.out.println(nq.nQueen(a, 0));
+		for(int i=0;i<n;i++)
+        {
+            for(int j=0;j<n;j++)
+                System.out.print(" "+a[i][j]+" ");
+            System.out.println();
+        }
 	}
 
 }
